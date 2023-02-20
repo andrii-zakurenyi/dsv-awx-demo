@@ -10,5 +10,5 @@
         ) }}
   tasks:
     - debug: msg='DSV tenant is {{ DSV_TENANT }}'
-    - debug: msg='full secret: {{ secret }}'
+    - debug: msg='{{ secret }}'
     - debug: msg='the password is {{ secret["data"]["fundamental"] }} and {{ secret["data"]["secret"] }} and {{ secret["data"]["access_key"] }}'
